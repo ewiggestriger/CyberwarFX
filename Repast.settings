@@ -1,0 +1,23 @@
+<simphony.settings.SettingsRegistry serialization="custom">
+  <unserializable-parents/>
+  <hashtable>
+    <default>
+      <loadFactor>0.75</loadFactor>
+      <threshold>8</threshold>
+    </default>
+    <int>11</int>
+    <int>6</int>
+    <string>SettingsRegistryId</string>
+    <string>Repast.registry</string>
+    <string>RStudio.home.2.5.0</string>
+    <string>/Applications/RStudio.app</string>
+    <string>RStudio.home</string>
+    <string>/Applications/RStudio.app</string>
+    <string>LastLoadedScenario</string>
+    <string>/Users/johnkostoff/eclipse-workspace/CyberwarFX/CyberwarFX.rs</string>
+    <string>SettingsFileName</string>
+    <string>Repast.settings</string>
+    <string>RStudio.licenseAccepted</string>
+    <boolean>true</boolean>
+  </hashtable>
+</simphony.settings.SettingsRegistry>

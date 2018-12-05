@@ -1,0 +1,15 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.5.0">
+  <name>Cyberwar Asset Data</name>
+  <dataSet>Asset Aggregate</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>Attacked</string>
+    <string>Availability</string>
+    <string>Confidentiality</string>
+    <string>Integrity</string>
+    <string>tick</string>
+  </sourceIds>
+  <fileName>/Users/johnkostoff/eclipse-workspace/CyberwarFX/output/AssetMetrics.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

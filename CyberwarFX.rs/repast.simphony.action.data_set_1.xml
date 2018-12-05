@@ -1,0 +1,49 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.5.0">
+  <name>Asset Aggregate</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-2072615531</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Availability</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Availability</id>
+        <className>cyberwarFX.Asset</className>
+        <methodName>get_availability</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Confidentiality</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Confidentiality</id>
+        <className>cyberwarFX.Asset</className>
+        <methodName>get_confidentiality</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Integrity</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Integrity</id>
+        <className>cyberwarFX.Asset</className>
+        <methodName>get_integrity</methodName>
+        <aggType>MEAN</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

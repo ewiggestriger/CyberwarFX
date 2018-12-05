@@ -1,0 +1,1 @@
+"Attacked","Availability","Confidentiality","Integrity","tick"
